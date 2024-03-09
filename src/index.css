@@ -15,6 +15,28 @@ h3:hover{
         color: green;
  
 }
+.btnUpdate{
+    color: white;
+    border: none;
+    border-radius: 25px;
+    background-color: chocolate;
+    font-weight: bolder;
+}
+.btnUpdate:hover{
+    background-color: brown;
+    color:green;
+}
+.btnDelete{
+    color: white;
+    border: none;
+    border-radius: 25px;
+    background-color: chocolate;
+    font-weight: bolder;
+}
+.btnDelete:hover{
+    background-color: brown;
+    color:green;
+}
 .navbar-nav{
     a{
         font-size: 20px;

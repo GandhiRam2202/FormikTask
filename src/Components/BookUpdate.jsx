@@ -26,8 +26,8 @@ const BookUpdate = ({ id }) => {
         title: Yup.string().required('Title Required'),
         author: Yup.string().required('Author Required'),
         isbno: Yup.string()
-            .required('ISB NO Required')
-            .matches(/^\d{13}$/, 'ISB NO must be a 13-digit number'),
+            .required('ISBN NO Required')
+            .matches(/^\d{13}$/, 'ISBN NO must be a 13-digit number'),
         pubdate: Yup.string()
             .required('Publication Date Required')
             .matches(/^\d{4}$/, 'Publication Date must be a 4-digit year'),

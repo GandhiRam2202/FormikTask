@@ -20,14 +20,23 @@ const AddUser = () => {
 
     const validationSchema = Yup.object().shape({
         title: Yup.string().required('Title Required'),
-        author: Yup.string().required('Author Name Required'),
-        isbno: Yup.string().required('ISBN No Required'),
-        pubdate: Yup.string().required('Publication Date Required'),
-        dob: Yup.string().required('Author DOB Required'),
-        bio: Yup.string().required('Short Bio Required'),
-        cat: Yup.string().required('category Required'),
+        author: Yup.string().required('Author Required'),
+        isbno: Yup.string()
+            .required('ISB NO Required')
+            .matches(/^\d{13}$/, 'ISB NO must be a 13-digit number'),
+        pubdate: Yup.string()
+            .required('Publication Date Required')
+            .matches(/^\d{4}$/, 'Publication Date must be a 4-digit year'),
+            dob: Yup.string()
+            .required('Author DOB Required')
+            .matches(
+                /^(0[1-9]|[12][0-9]|3[01])-(0[1-9]|1[0-2])-\d{4}$/,
+                'Author DOB must be in the format dd-mm-yyyy'
+            ),         
+        bio: Yup.string().required('Author Short Bio Required'),
+        cat: Yup.string().required('Category Required'),
     });
-
+    
     const handleSubmit = async (values) => {
         try {
             // Making a POST request to the API endpoint with the form data

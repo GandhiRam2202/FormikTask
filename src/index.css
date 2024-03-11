@@ -15,6 +15,18 @@ h3:hover{
         color: green;
  
 }
+.border-img{
+    margin: 15px;
+    width: 220px;
+    height: 220px;
+    border: 8px dotted red;
+    border-radius: 500px;
+    .img{
+        width: 204px;
+        padding: 6px;
+    }
+    
+}
 .btnUpdate{
     color: white;
     border: none;

@@ -11,8 +11,11 @@ const Developer = () => {
     return (
         <>
             <div className='col-12 d-flex justify-content-center'>
-            <img src={obj.src} alt=""  className='p-3'/>
+            <div className="border-img">
+            <img src={obj.src} alt=""  className='img'/>
+            </div>
         </div>
+            
         <div className='col-12 d-flex text-danger justify-content-center'>
            <h5 className='fw-bolder'>Hi I'm Parthiban</h5>
         </div>

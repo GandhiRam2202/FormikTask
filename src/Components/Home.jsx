@@ -14,6 +14,7 @@ import History from './History';
 import Horror from './Horror'
 import Fantasy from './Fantasy';
 import Mistery from './Mistery';
+import Developer from './Developer';
 
 
 const Home = () => {
@@ -30,6 +31,7 @@ const Home = () => {
                     <h3><Link to='/author' className='fw-bolder'>Author</Link></h3>
                     <h3><Link to='/adduser' className='fw-bolder'>Add Book</Link></h3>
                     <h3><Link to='/addauthor' className='fw-bolder'>Add Author</Link></h3>
+                    <h3><Link to='/developer' className='fw-bolder'>Developer</Link></h3>
                     
                     </div>
                     
@@ -38,6 +40,7 @@ const Home = () => {
                         <Route path='/' element={<All/>}/>
                         <Route path='/autobio' element={<AutoBio/>}/>
                         <Route path='/jokes' element={<Jokes/>}/>
+                        <Route path='/developer' element={<Developer/>}/>
                         <Route path='/history' element={<History/>}/>
                         <Route path='/horror' element={<Horror/>}/>
                         <Route path='/fantasy' element={<Fantasy/>}/>

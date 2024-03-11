@@ -111,6 +111,19 @@ textarea{
     border-radius: 25px;
     border: 2px solid rgb(255,99,71);    
 }
+.btn1{
+    background-color: rgb(255,99,71);
+    width: 25%;
+    border-radius: 25px;
+    border: none;
+    font-weight: bolder;
+    color: white;
+}
+.btn1:hover{
+    background-color: green;
+    font-weight: bolder;
+    color: white;
+}
 @media screen and (max-width:991px) {
 
     .sidebar{

@@ -1,11 +1,11 @@
 .navbar{
-    background-color: tomato;
+    background-color: darkblue;
 }
 .offcanvas{
-    background-color: tomato;
+    background-color: darkblue;
 }
 h3{
-    background-color: brown;
+    background-color: darkgreen;
     border-radius: 10px;
 }
 h3:hover{
@@ -25,7 +25,14 @@ h3:hover{
         width: 204px;
         padding: 6px;
     }
-    
+    .ceo{
+        border-radius: 50%;
+        width: 204px;
+        padding: 6px;
+    }
+}
+.suresh{
+    margin-top: 140px;
 }
 .btnUpdate{
     color: white;
@@ -51,28 +58,38 @@ h3:hover{
 }
 .navbar-nav{
     a{
+        color: white;
+        text-decoration: none;
         font-size: 20px;
         margin-right: 25px;
     }
     a:hover{
         color: green;
-        text-shadow: 2px 2px 5px white;
+        
     }
 }
 h3:hover{
+    
     a{
-
+        text-decoration: none;
+        position: relative;
         border-radius: 10px;
-        color: green;
+        color: blue;
     }
 }
-a{
-    color: white;
-    text-decoration: none;
+h3{
+    a{
+        text-decoration: none;
+        position: relative;
+        padding-bottom: 20px;
+        border-radius: 10px;
+        color: white;
+    }
 }
+
 .sidebar
 {
-   background-color: tomato;
+   background-color: darkblue;
    height: 90vh;
    overflow-y: auto;
    overflow-x: hidden;
@@ -86,13 +103,15 @@ a{
    position: sticky;
 }
 .card{
-    background-color: rgb(255,99,71);
+    padding: 20px;
+    background-color: darkblue;
     color: white;
+    border-radius: 25px;
 }
 .card:hover{
     position: relative;
     box-shadow: 0px 0px 10px black;
- bottom: 20px;
+    bottom: 20px;
 }
 label{
     font-weight: bolder;
@@ -136,9 +155,13 @@ textarea{
     font-weight: bolder;
     color: white;
 }
+
 @media screen and (max-width:991px) {
 
     .sidebar{
         display:none
     }   
+    .thanks{
+        margin-top: 100px;
+    }
 }

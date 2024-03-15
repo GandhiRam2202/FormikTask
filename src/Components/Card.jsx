@@ -5,12 +5,13 @@ const Card = ({item}) => {
     return (
         
              <div className="card h-100">
+                <div className="card-header text-center fw-bolder p-0">
+                {item.title}       
+                </div>
             <div className="card-img d-flex justify-content-center">
             <img src={img.src} width='60%'/>
                 </div>
-            <div className='col-12 fw-bolder text-center'>
-             Title : {item.title}
-            </div>
+            
             <div className='col-12 fw-bolder text-center'>
              Author : {item.author}
             </div>

@@ -19,6 +19,7 @@ const Sidecanva = () => {
                     <h3><Link to='/author' className='fw-bolder'>Author</Link></h3>
                     <h3><Link to='/adduser' className='fw-bolder'>Add Book</Link></h3>
                     <h3><Link to='/addauthor' className='fw-bolder'>Add Author</Link></h3>
+                    <h3><Link to='/credits' className='fw-bolder'>Credits</Link></h3>
                     <h3><Link to='/developer' className='fw-bolder'>Developer</Link></h3>
                       
                       </div>

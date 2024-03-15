@@ -20,6 +20,7 @@ const Navbar = () => {
           <Link to='/' className='fw-bolder'>All</Link>
           <Link to='/autobio' className='fw-bolder'>AutoBiography</Link>
           <Link to='/history' className='fw-bolder'>History</Link>
+          <Link to='/love' className='fw-bolder'>Love</Link>
           <Link to='/fantasy' className='fw-bolder'>Fantasy</Link>
           <Link to='/mistery' className='fw-bolder'>Mystery</Link>
           <Link to='/horror' className='fw-bolder'>Horror</Link>

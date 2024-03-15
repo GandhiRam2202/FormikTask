@@ -10,8 +10,8 @@ const App = () => {
     <>
       <BrowserRouter>
       <Navbar/>
-      <Sidecanva/>
       <Home/>
+      <Sidecanva/>
       </BrowserRouter>
     </>
     

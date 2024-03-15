@@ -64,11 +64,13 @@ const AddUser = () => {
 
                             <div className='col-lg-6 p-0'>
                                 <h1 className='text-center bg-danger p-0 m-0 text-white'>Author Details</h1>
+                                
                                 <div className='col-lg-10 m-3'>
                                     <label>Author <span className='req'>*</span></label><br />
                                     <div className="row">
                                         <Field type='text' name='author' placeholder="Author Name"/>
                                         <ErrorMessage name='author' component='h6' className='emsg'/>
+                                
                                     </div>
                                 </div>
                                 <div className='col-lg-10 m-3'>

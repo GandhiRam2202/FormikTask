@@ -25,7 +25,8 @@ const Credits = () => {
                             </div>
                             <div className="col-4 border-img">
                                 <img src={obj.ceo} alt="" className='ceo' />
-                                <h5 className='fw-bolder text-center mt-2 text-primary'>GUVI CEO</h5>
+                                <h5 className='fw-bolder text-center mt-2 text-primary'>Arun Prakash</h5>
+                                <h6 className='fw-bolder text-center mt-2 text-primary'>GUVI CEO</h6>
                             </div>
                             <div className="col-4 border-img">
                                 <img src={obj.suresh} alt="" className='ceo' />
@@ -41,13 +42,14 @@ const Credits = () => {
                                 <img src={obj.ceo} alt="" className='ceo' />
                             </div>
                             <div className="col-12">
-                                <h5 className='fw-bolder text-center mt-2 text-primary'>GUVI CEO</h5>
+                                <h5 className='fw-bolder text-center mt-2 text-primary'>Arun Prakash</h5>
+                                <h6 className='fw-bolder text-center mt-2 text-primary'>GUVI CEO</h6>
                             </div>
                         </div>
                     </div>
                     <div className="row justify-content-center">
 
-                        <div className="col-12 d-block d-lg-none border-img">
+                        <div className="pugazh col-12 d-block d-lg-none border-img">
                             <div className="col-12 d-flex justify-content-center">
                                 <img src={obj.pugazh} alt="" className='ceo' />
                             </div>

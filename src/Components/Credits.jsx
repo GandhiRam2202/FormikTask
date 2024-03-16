@@ -19,7 +19,7 @@ const Credits = () => {
                         <div className="col-lg-12 d-flex justify-content-center">
                             <div className="col-4 border-img">
                                 <img src={obj.pugazh} alt="" className='ceo' />
-                                <h5 className='fw-bolder text-center mt-2 text-primary'>Pugazharasan Sir</h5>
+                                <h5 className='fw-bolder text-center mt-2 text-primary'>Pugazharasan</h5>
                                 <h6 className='fw-bolder text-center mt-2 text-primary'>HTML|Bootstrap|JavaScript</h6>
                                 <h6 className='fw-bolder text-center mt-2 text-primary'>Mentor</h6>
                             </div>
@@ -30,7 +30,7 @@ const Credits = () => {
                             </div>
                             <div className="col-4 border-img">
                                 <img src={obj.suresh} alt="" className='ceo' />
-                                <h5 className='fw-bolder text-center mt-2 text-primary'>Sureshbabu Sir</h5>
+                                <h5 className='fw-bolder text-center mt-2 text-primary'>Sureshbabu</h5>
                                 <h6 className='fw-bolder text-center mt-2 text-primary'>React Mentor</h6>
                             </div>
                         </div>

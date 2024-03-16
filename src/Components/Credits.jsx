@@ -54,7 +54,7 @@ const Credits = () => {
                                 <img src={obj.pugazh} alt="" className='ceo' />
                             </div>
                             <div className="col-12">
-                                <h5 className='fw-bolder text-center mt-2 text-primary'>Pugazharasan Sir</h5>
+                                <h5 className='fw-bolder text-center mt-2 text-primary'>Pugazharasan</h5>
                                 <h5 className='col-12 fw-bolder text-center mt-2 text-primary'>HTML</h5>
                                 <h5 className='col-12 fw-bolder text-center mt-2 text-primary'>Bootstrap</h5>
                                 <h5 className='col-12 fw-bolder text-center mt-2 text-primary'>JavaScript</h5>
@@ -69,7 +69,7 @@ const Credits = () => {
                                 <img src={obj.suresh} alt="" className='ceo' />
                             </div>
                             <div className="col-12">
-                                <h5 className='fw-bolder text-center mt-2 text-primary'>Sureshbabu Sir</h5>
+                                <h5 className='fw-bolder text-center mt-2 text-primary'>Sureshbabu</h5>
                                 <h5 className='col-12 fw-bolder text-center mt-2 text-primary'>React</h5>
                                 <h5 className='fw-bolder text-center mt-2 text-primary'>Mentor</h5>
                             </div>

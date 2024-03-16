@@ -124,7 +124,7 @@ const BookUpdate = ({ id }) => {
 
                                <div className='col-lg-10 m-3'>
                            <div className="row">
-                               <button type='submit' className='add'>Add Book</button>
+                               <button type='submit' className='add'>Update Book</button>
                            </div>
                                </div>
                        </div>

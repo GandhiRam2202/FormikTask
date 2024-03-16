@@ -34,7 +34,7 @@ const Author = ({ setId }) => {
                 <div className="table-responsive">
                     <table className="table table-hover">
                         <thead className="sticky-header">
-                            <tr className="table-warning">
+                            <tr className="table-primary">
                                 <th scope="col">AUTHOR</th>
                                 <th scope="col">BOOK</th>
                                 <th scope="col">DOB</th>

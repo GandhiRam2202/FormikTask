@@ -33,7 +33,7 @@ const User = ({ setId }) => {
                 <div className="table-responsive">
                     <table className="table table-hover">
                         <thead className="sticky-header">
-                            <tr className="table-warning">
+                            <tr className="table-primary">
                                 <th scope="col">TITLE</th>
                                 <th scope="col">AUTHOR</th>
                                 <th scope="col">ISBN NO</th>

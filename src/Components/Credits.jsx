@@ -35,6 +35,8 @@ const Credits = () => {
                             </div>
                         </div>
                     </div>
+                              
+                            
                     <div className="row justify-content-center">
 
                         <div className="col-12 d-block d-lg-none border-img">

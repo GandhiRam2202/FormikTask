@@ -5,15 +5,13 @@
     background-color: darkblue;
 }
 h3{
-    background-color: darkgreen;
-    border-radius: 10px;
+    background-color: white;
+    border-radius: 25px;
+    color: blue;
 }
 h3:hover{
- 
-        background-color: chocolate;
-        border-radius: 10px;
+        background-color: aqua;
         color: green;
- 
 }
 .border-img{
     margin: 15px;
@@ -37,11 +35,12 @@ h3:hover{
 .pugazh{
     margin-top: 50px;
 }
+
 .btnUpdate{
     color: white;
     border: none;
     border-radius: 25px;
-    background-color: chocolate;
+    background-color: rgb(0,0,139);
     font-weight: bolder;
 }
 .btnUpdate:hover{
@@ -52,7 +51,7 @@ h3:hover{
     color: white;
     border: none;
     border-radius: 25px;
-    background-color: chocolate;
+    background-color: rgb(0,0,139);
     font-weight: bolder;
 }
 .btnDelete:hover{
@@ -61,23 +60,23 @@ h3:hover{
 }
 .navbar-nav{
     a{
+        font-family: "Pacifico", cursive;
         color: white;
         text-decoration: none;
         font-size: 20px;
         margin-right: 25px;
     }
-    a:hover{
-        color: green;
-        
-    }
+
+    
 }
 h3:hover{
     
     a{
+        
         text-decoration: none;
         position: relative;
         border-radius: 10px;
-        color: blue;
+        color: green;
     }
 }
 h3{
@@ -86,7 +85,7 @@ h3{
         position: relative;
         padding-bottom: 20px;
         border-radius: 10px;
-        color: white;
+        color: blue;
     }
 }
 
@@ -124,7 +123,7 @@ label{
     border-radius: 25px;
     border: none;
     color: white;
-    background-color: rgb(255,99,71);
+    background-color: rgb(0,0,139);
 }
 .add:hover{
     background-color: rgb(165,42,42);
@@ -139,14 +138,14 @@ label{
 }
 input{
     border-radius: 25px;
-    border: 2px solid rgb(255,99,71);    
+    border: 2px solid rgb(0,0,139);    
 }
 textarea{
     border-radius: 25px;
-    border: 2px solid rgb(255,99,71);    
+    border: 2px solid rgb(0,0,139);    
 }
 .btn1{
-    background-color: rgb(255,99,71);
+    background-color: rgb(0,0,139);
     width: 25%;
     border-radius: 25px;
     border: none;

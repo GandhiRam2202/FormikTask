@@ -16,7 +16,7 @@ const Developer = () => {
             </div>
         </div>
             
-        <div className='col-12 d-flex text-danger justify-content-center'>
+        <div className='col-12 d-flex text-primary justify-content-center'>
            <h5 className='fw-bolder'>Hi I'm Parthiban</h5>
         </div>
         <div className="row d-none d-lg-block">
@@ -36,16 +36,16 @@ const Developer = () => {
             </div>
         </div>
         
-        <div className='col-12 d-flex text-danger justify-content-center'>
+        <div className='col-12 d-flex text-primary justify-content-center'>
            <h5 className='fw-bolder'>Full Stack Developer</h5>
         </div>
-        <div className='col-12 d-flex text-danger justify-content-center'>
+        <div className='col-12 d-flex text-primary justify-content-center'>
            <h5 className=' fw-bolder'>gandhiramparthi@gmail.com</h5>
         </div>
-        <div className='col-12 d-flex text-danger justify-content-center'>
+        <div className='col-12 d-flex text-primary justify-content-center'>
            <h5 className=' fw-bolder'>8248353700</h5>
         </div>
-        <div className='col-12 d-flex text-danger justify-content-center'>
+        <div className='col-12 d-flex justify-content-center'>
            <button onClick={handleClick} className='btn1'>Back</button>
         </div>
         </>

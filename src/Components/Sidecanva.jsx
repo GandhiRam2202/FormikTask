@@ -1,7 +1,12 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
 const Sidecanva = () => {
+  const [activeItem, setActiveItem] = useState(null);
+
+  const handleItemClick = (itemName) => {
+      setActiveItem(itemName === activeItem ? null : itemName);
+  };
     return (
         <div>
            
@@ -15,12 +20,24 @@ const Sidecanva = () => {
     <div>
     <div className=" text-center">
                       
-                    <h3><Link to='/user' className='fw-bolder'>Books</Link></h3>
-                    <h3><Link to='/author' className='fw-bolder'>Author</Link></h3>
-                    <h3><Link to='/adduser' className='fw-bolder'>Add Book</Link></h3>
-                    <h3><Link to='/addauthor' className='fw-bolder'>Add Author</Link></h3>
-                    <h3><Link to='/credits' className='fw-bolder'>Credits</Link></h3>
-                    <h3><Link to='/developer' className='fw-bolder'>Developer</Link></h3>
+    <h3 className={`mb-3 mt-3 ${activeItem === '/user' ? 'activ' : ''}`}>
+        <Link to='/user' className='fw-bolder' onClick={() => handleItemClick('/user')}>Books</Link>
+      </h3>
+      <h3 className={`mb-3 mt-3 ${activeItem === '/author' ? 'activ' : ''}`}>
+        <Link to='/author' className='fw-bolder' onClick={() => handleItemClick('/author')}>Author</Link>
+      </h3>
+      <h3 className={`mb-3 mt-3 ${activeItem === '/adduser' ? 'activ' : ''}`}>
+        <Link to='/adduser' className='fw-bolder' onClick={() => handleItemClick('/adduser')}>Add Book</Link>
+      </h3>
+      <h3 className={`mb-3 mt-3 ${activeItem === '/addauthor' ? 'activ' : ''}`}>
+        <Link to='/addauthor' className='fw-bolder' onClick={() => handleItemClick('/addauthor')}>Add Author</Link>
+      </h3>
+      <h3 className={`mb-3 mt-3 ${activeItem === '/credits' ? 'activ' : ''}`}>
+        <Link to='/credits' className='fw-bolder' onClick={() => handleItemClick('/credits')}>Credits</Link>
+      </h3>
+      <h3 className={`mb-3 mt-3 ${activeItem === '/developer' ? 'activ' : ''}`}>
+        <Link to='/developer' className='fw-bolder' onClick={() => handleItemClick('/developer')}>Developer</Link>
+      </h3>
                       
                       </div>
     </div>

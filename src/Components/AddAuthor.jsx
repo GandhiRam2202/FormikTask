@@ -63,7 +63,7 @@ const AddUser = () => {
                         <div className="row">
 
                             <div className='col-lg-6 p-0'>
-                                <h1 className='text-center bg-danger p-0 m-0 text-white'>Author Details</h1>
+                                <h1 className='text-center bg-primary p-0 m-0 text-white'>Author Details</h1>
                                 
                                 <div className='col-lg-10 m-3'>
                                     <label>Author <span className='req'>*</span></label><br />
@@ -92,7 +92,7 @@ const AddUser = () => {
                                 
                             </div>
                             <div className='col-lg-6 p-0'>
-                                <h1 className='text-center bg-danger p-0 m-0 text-white'>Book Details</h1>
+                                <h1 className='text-center bg-primary p-0 m-0 text-white'>Book Details</h1>
                                 <div className='col-lg-10 m-3'>
                                     <label>Title <span className='req'>*</span></label><br />
                                     <div className="row">

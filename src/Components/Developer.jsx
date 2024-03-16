@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 
 const Developer = () => {
     const navigate = useNavigate();
-    let obj = {src:'Images/2.png',m:'Images/m.png',e:'Images/e.png',r:'Images/r.png',n:'Images/n.png'}
+    let obj = {src:'Images/2.jpg',m:'Images/m.png',e:'Images/e.png',r:'Images/r.png',n:'Images/n.png'}
     
     const handleClick=()=>{
         navigate('/')

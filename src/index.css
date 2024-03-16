@@ -20,6 +20,7 @@ h3:hover{
     border: 8px dotted red;
     border-radius: 500px;
     .img{
+        border-radius: 50%;
         width: 204px;
         padding: 6px;
     }
